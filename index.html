@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <meta name="author" content="Flavio Filho">
+    <meta name="description" content="Este sao meus primeiros cards em CSS e HTML">
+    <title>Ecommerce</title>
+</head>
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <h1>Ecommerce</h1>
+            <img id="sacola" src="./img/bolsa-de-compras.png" alt="sacola
+             de compras">
+
+             <!-- Carrinho de compras -->
+             <div class="car">
+
+                    <div class="fechar-cart"><img id="fechar" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATZJREFUSEvtl2ENAjEMhR8OcAA4QAIoQAIgASdIAAc4AAfgAHAACiAvuSZL6W3L1svdD5aQy7HRr31rtzJCT2PUExeDA08BTJzUeAO4aVtWxCcAKyeomDkA2IY2NZiR3p2hYm4G4CEvGrwAcO4IvARw+YNFgZTUz0i2x+Zov1jqI4ANAGboWuVBbE6WFoGZjczKsDwELlCZ41rrDCgC06iuRb5zUAXLIV0cxWALHhq3tiCcrwK3wVPQquQS7/WeijM64VyltqA5+1sVsYZS3o86/GOSF+3xqyknPrW0YbaPm0uGTzepeafS671xgBC+ay6YuQGtkpo/ZsRWNKm5anBLMFlfF+1xluXEomGCmRhXj/AMG9HWh+u7aPZ+Dp62vppNHz8eg5WQ1d56wJI2BvdPIulx7YIvKrdUH5koh6cAAAAASUVORK5CYII="/></div>
+                    <h2 class="title">Carrinho de compras</h2>
+                <div class="car-content">
+                    <div class="car-item">
+
+                            <img class="item-img" src="img/tenis.png" alt="tenis nike">
+
+                            <div class="car-values">
+                                <h3 class="car-title">TENIS NIKE</h3>
+                                <p>R$ 105,00</p>
+                                <input type="number" value="1" class="quantidade">
+                            </div>
+
+                            <div class="remove-item">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAQdJREFUSEvtltEVATEQRe9WoAUl6AAd0AEV0AE6oAJKoAJ0oAQlUAHnHbIn1maTLM76yHxuJrmTN5OdyWjIsoa4xIKnQMsR7AVYhV4kBrwEJp6DBVZwXgsFj4C197SHwxjY+HyL4B6w922qud4HDmbv34DbgGT9hUn+s+vGNrBTUcGhgV2BU5lzVXEpH91QgsPvCKhu3iyBbUmKUi+ei5KumAJJap7KzDrkK1KbtMwB+3BxFJS+y24J/GlVJ6ltBVNxGTXSO87rIqZJmC6jfl3s2eq1ZtzJpwzgK1LX6ZCNgXfAIPbPFTNZutQYAttYsPw1/pRGHKC7cm3n+2VL6FwdwIlzaQx8B11gWB9Vh+zeAAAAAElFTkSuQmCC"/></div>
+                    </div>
+                    <div class="linha-dois"></div>
+                            <div class="finalizar">
+                                <div class="pagar">
+                                    <p class="total">Total</p>
+                                    <p class="total pag">$0</p>
+                                </div>
+                                <button class="buy">Finalizar Compras</button>
+                            </div>
+
+                            
+                </div>
+
+            
+             </div>
+        </div>
+        <div class="linha"></div>
+    </header>
+
+    <main class="principal">
+        <h2 id="shop">Shop Products</h2>
+        
+        <!-- Container dos produtos -->
+        <section class="secao-um container">
+
+            <ul class="secao-um">
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/tenis-2.png" alt="tenis nike">
+                </div>
+                <h3 class="title-item">Tenis Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$25</p>
+               
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/tenis.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Tenis Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$105</p>
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/bermuda.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Bermuda Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$75</p>
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/bola.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Bola Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$75</p>
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/camisa-longa.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Camisa Manga Longa</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$75</p>
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/camisa.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Camisa Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$75</p>
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/garrafa.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Garrafa Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$75</p>
+            </li>
+
+            <li class="cards">
+                <div class="produto">
+                    <img src="img/garrfafa-plastico.png" alt="bermuda nike">
+                </div>
+                <h3 class="title-item">Garrafa Plastico Nike</h3>
+                <div class="cart"><img class="bx add-cart" src="img/bolsa-de-compras.png" alt="bolsa de compras"></div>
+                <p class="price">$75</p>
+            </li>
+
+        </ul>
+
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
